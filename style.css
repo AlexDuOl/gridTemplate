@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card {
+    width: 100%;
+    background-color: cadetblue;
+    border: 1px solid #333333;
+}
+
+.card-container {
+    padding: 10px 20px;
+}
+
+.featured {
+    grid-column: span 2;
+}
